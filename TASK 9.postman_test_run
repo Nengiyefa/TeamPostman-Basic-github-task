@@ -1,0 +1,205 @@
+{
+	"id": "29d7d4e0-4550-43a9-84c6-71b80f679929",
+	"name": "API TASK COLLECTION",
+	"timestamp": "2023-03-16T20:47:41.793Z",
+	"collection_id": "26216746-fa6613af-9056-4bb1-b061-6d7a654dc998",
+	"folder_id": 0,
+	"environment_id": "26216746-5f5db726-52bc-4b79-9604-7441dad60615",
+	"totalPass": 22,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-16T20:47:39.725Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0884bfa7-42c7-49f8-a517-ade2d236ab95",
+			"name": "MANUAL TEST (200/OK)",
+			"url": "https://petstore.swagger.io/v2/swagger.json",
+			"time": 978,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				978
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "54c90414-da35-439c-ade4-6608a43fadf4",
+			"name": "7 MANUAL TEST (BODY RESPONSE)",
+			"url": "https://petstore.swagger.io/v2/swagger.json?=petstore.swagger.io",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be is 200": true,
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Confirm that the host is petstore.swagger.io": true,
+				"verify that jsonData displays the version": true,
+				"Confirm jsonData tag name is store": true,
+				"verify that jsonData displays the url": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the host is petstore.swagger.io": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that jsonData displays the version": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm jsonData tag name is store": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that jsonData displays the url": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code should be is 200": true,
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Confirm that the host is petstore.swagger.io": true,
+					"verify that jsonData displays the version": true,
+					"Confirm jsonData tag name is store": true,
+					"verify that jsonData displays the url": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "70f97caf-aa52-4c1d-b091-6a4f6d686b48",
+			"name": "8 MANUAL TEST (ENVIRONMENT)",
+			"url": "https://petstore.swagger.io/v2/swagger.json",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be is 200": true,
+				"Status code name should have an OK string": true,
+				"Status code should be 200": true,
+				"Confirm that the host is petstore.swagger.io": true,
+				"verify that jsonData displays the version": true,
+				"Confirm jsonData tag name is store": true,
+				"verify that jsonData displays the url": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the host is petstore.swagger.io": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that jsonData displays the version": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm jsonData tag name is store": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that jsonData displays the url": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code should be is 200": true,
+					"Status code name should have an OK string": true,
+					"Status code should be 200": true,
+					"Confirm that the host is petstore.swagger.io": true,
+					"verify that jsonData displays the version": true,
+					"Confirm jsonData tag name is store": true,
+					"verify that jsonData displays the url": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1431,
+	"collection": {
+		"requests": [
+			{
+				"id": "0884bfa7-42c7-49f8-a517-ade2d236ab95",
+				"method": "GET"
+			},
+			{
+				"id": "54c90414-da35-439c-ade4-6608a43fadf4",
+				"method": "GET"
+			},
+			{
+				"id": "70f97caf-aa52-4c1d-b091-6a4f6d686b48",
+				"method": "GET"
+			}
+		]
+	}
+}
